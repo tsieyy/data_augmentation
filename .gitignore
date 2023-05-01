@@ -1,0 +1,7 @@
+*.png
+*.json
+data
+data_aug
+img
+img_aug
+*avi
