@@ -195,7 +195,7 @@ if __name__ == '__main__':
     dataAug = DataAugmentForObjectDetection()  # 数据增强工具类
     # 获取相关参数
     parser = argparse.ArgumentParser()
-    parser.add_argument('--source_img_json_path', type=str, default='data/img')
+    parser.add_argument('--source_img_json_path', type=str, default='data')
     parser.add_argument('--save_img_json_path', type=str, default='data_aug')
     args = parser.parse_args()
     source_img_json_path = args.source_img_json_path  # 图片和json文件原始位置

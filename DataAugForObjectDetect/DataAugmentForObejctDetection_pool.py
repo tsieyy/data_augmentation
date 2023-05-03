@@ -476,7 +476,7 @@ def gen(parent,file,dataAug,need_aug_num,source_xml_root_path,out_root_path):
 
 if __name__ == '__main__':
 
-    need_aug_num = 4 #每张图片扩增数量
+    need_aug_num = 5 #每张图片扩增数量
     out_root_path = './dataset' #输出路径
 
     source_pic_root_path = './data/images'
